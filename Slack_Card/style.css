@@ -1,0 +1,46 @@
+body{
+  background-color:#001f3f;
+}
+.Outer{
+  background-image:url("person31.jpeg");
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-color:white;
+  border:1px solid black;
+  border-radius:15px;
+  margin-top:2em;
+  margin-bottom:1em;
+  margin-left:2em;
+  margin-right:71em;
+  cursor:pointer;
+}
+.Inner1{
+
+  font-family:"Courier new";
+  font-size:25px;
+  text-transform:uppercase;
+  font-weight:bold;
+  text-align: center;
+  border-top:1px solid black;
+  border-bottom:1px solid black;
+  margin-top:12.8em;
+  margin-bottom:0.5em;
+}
+
+.Detail2{
+  font-family:"Courier new";
+  font-weight:bold;
+  font-size:15px;
+  cursor:pointer;
+  text-align:left;
+  border: none;
+  background-color:white;
+  padding:5px 5px;
+  width:280px;
+}
+
+.Detail2:hover {
+  background-color: #7FDBFF;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+  color: white;
+}
